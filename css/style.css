@@ -1,0 +1,1199 @@
+@charset "UTF-8";
+/* line 1, ../../../OneDrive/Разработка/Bootstrap_testing/sass/style.sass */
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* line 1, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+header {
+  min-height: 50px;
+  background-color: #212121;
+  position: relative;
+}
+
+/* line 5, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+nav {
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  background-color: #212121;
+  z-index: 5;
+}
+
+/* line 11, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 70px;
+  margin: 0;
+  list-style-type: none;
+}
+
+/* line 18, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.menu_link {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 300;
+  color: #fff;
+}
+
+/* line 23, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.menu_item {
+  border-right: 2px dotted black;
+  padding-right: 28px;
+}
+
+/* line 26, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.menu_item:last-child {
+  border-right: none;
+}
+
+/* line 28, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.hamburger {
+  display: none;
+}
+
+/* line 30, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.subheader {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  height: 84px;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  width: 100%;
+}
+
+/* line 39, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.subheader_logo {
+  display: block;
+  max-width: 100%;
+  margin-top: 16px;
+}
+
+/* line 44, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.subheader_call {
+  display: block;
+  margin-top: 23px;
+  font-size: 12px;
+  font-weight: 300;
+  text-align: right;
+  color: #fff;
+}
+
+/* line 52, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.subheader_phone {
+  display: block;
+  font-size: 22px;
+  text-decoration: none;
+  font-weight: normal;
+  text-align: center;
+  color: #fff;
+}
+
+/* line 60, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.subheader .button_call {
+  width: 172px;
+  height: 46px;
+  margin-top: 19px;
+  box-shadow: inset 0px -3px 0 0 rgba(0, 0, 0, 0.12);
+  border: solid 3px rgba(0, 0, 0, 0.07);
+  background-image: linear-gradient(to top, #1eacc7, #4ce2ff);
+  text-shadow: 0.7px 0.7px 0 rgba(0, 0, 0, 0.21);
+  text-transform: uppercase;
+  font-family: Roboto;
+  font-size: 14px;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  border-radius: 4px;
+}
+
+/* line 77, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.request {
+  min-height: 800px;
+  width: 100%;
+  background: url(/img/layer_1_2.png) center center/cover no-repeat;
+  padding: 150px 0 135px 0;
+  margin: 0 auto;
+}
+
+/* line 83, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.request_h1 {
+  margin: 0;
+  font-size: 60px;
+  line-height: 60px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+}
+
+/* line 92, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.request_h2 {
+  margin: 0;
+  margin-top: 22px;
+  font-size: 36px;
+  line-height: 36px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+}
+
+/* line 102, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.request_text {
+  margin-top: 23px;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: center;
+  color: #fff;
+}
+
+/* line 109, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.request_button {
+  display: block;
+  width: 259px;
+  height: 63px;
+  margin: 118px 347px 0 349px;
+  box-shadow: inset 0px -4px 0 0 rgba(0, 0, 0, 0.12);
+  border: solid 3px rgba(0, 0, 0, 0.07);
+  background-image: linear-gradient(to top, #1eacc7, #4ce2ff);
+  text-shadow: 0.7px 0.7px 0 rgba(0, 0, 0, 0.21);
+  text-transform: uppercase;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  border-radius: 4px;
+}
+
+/* line 130, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.reasons {
+  min-height: 900px;
+  padding: 71px 0 65px 0;
+}
+
+/* line 134, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.reasons_block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+}
+
+/* line 139, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.reasons_paragraph {
+  font-size: 17px;
+  font-weight: normal;
+  color: #1eacc7;
+}
+
+/* line 144, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.reasons_text {
+  width: 341px;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  color: #202020;
+}
+
+/* line 151, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.reasons_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 113px;
+  height: 113px;
+  background-color: #1eacc7;
+  border-radius: 100%;
+  margin-right: 26px;
+}
+
+/* line 161, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.label {
+  position: relative;
+  display: block;
+  width: 112px;
+  height: 24px;
+  padding: 5px 12px;
+  margin: 0 auto;
+  background-color: #000;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 100;
+  text-align: center;
+  color: #fff;
+}
+
+/* line 175, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.title {
+  position: relative;
+  font-size: 38px;
+  font-weight: bold;
+  text-align: center;
+  color: #222;
+  margin-top: 38px;
+  text-transform: uppercase;
+}
+
+/* line 184, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.subtitle {
+  position: relative;
+  font-size: 17px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.24;
+  letter-spacing: normal;
+  text-align: center;
+  color: #222;
+}
+
+/* line 195, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.mobile {
+  min-height: 864px;
+  padding: 48px 0 79px 0;
+  background: url(/img/rectangle_20_142.png);
+}
+
+/* line 199, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.mobile .row {
+  margin-top: 32px;
+}
+
+/* line 201, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.mobile_item {
+  position: relative;
+  width: 320px;
+  height: 280px;
+  opacity: 0.9;
+  mix-blend-mode: multiply;
+  margin-bottom: 19px;
+  padding-top: 92px;
+}
+
+/* line 209, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.mobile_item_subtitle {
+  font-size: 24px;
+  color: #fff;
+  font-weight: 400;
+  line-height: 31px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 216, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.mobile_item_plus {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  bottom: 35px;
+  left: 50%;
+  transform: translate(-50%);
+  width: 26px;
+  height: 26px;
+  background-color: #000;
+  margin: 0 auto;
+  border-radius: 100%;
+  cursor: pointer;
+  transition: 0.3s all;
+}
+
+/* line 231, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.mobile_item_plus::before {
+  content: '';
+  display: block;
+  width: 14px;
+  height: 2px;
+  background-color: #1eacc7;
+}
+
+/* line 237, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.mobile_item_plus::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: block;
+  height: 14px;
+  width: 2px;
+  background-color: #1eacc7;
+}
+
+/* line 247, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.mobile_item_plus:hover::before, .mobile_item_plus:hover::after {
+  background-color: #ff5656;
+}
+
+/* line 251, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.mobile_item_1 {
+  background-image: url(/img/mobile1.png);
+}
+
+/* line 253, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.mobile_item_2 {
+  background-image: url(/img/mobile2.png);
+}
+
+/* line 255, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.mobile_item_3 {
+  background-image: url(/img/mobile3.png);
+}
+
+/* line 257, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.mobile_item_4 {
+  background-image: url(/img/mobile4.png);
+}
+
+/* line 259, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.mobile_item_5 {
+  background-image: url(/img/mobile5.png);
+}
+
+/* line 261, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.mobile_item_6 {
+  background-image: url(/img/mobile6.png);
+}
+
+/* line 264, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.lable_black {
+  display: block;
+  position: relative;
+  width: 112px;
+  height: 24px;
+  padding: 5px 12px;
+  margin: 0 auto;
+  background-color: #fff;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 100;
+  text-align: center;
+  color: #000;
+  z-index: 2;
+}
+
+/* line 278, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.title_white {
+  position: relative;
+  margin-top: 32px;
+  font-size: 38px;
+  font-weight: bold;
+  line-height: 1.26;
+  text-align: center;
+  color: #fff;
+  z-index: 2;
+}
+
+/* line 287, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.subtitle_white {
+  position: relative;
+  margin-top: 19px;
+  font-family: Roboto;
+  font-size: 17px;
+  line-height: 1.24;
+  text-align: center;
+  color: #fff;
+  z-index: 2;
+}
+
+/* line 296, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.choice {
+  min-height: 895px;
+  position: relative;
+  padding: 57px 0 138px 0;
+  background-color: #fff;
+}
+
+/* line 302, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.choice .choice_textbox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 500px;
+  width: 100%;
+  background-color: #070716;
+  z-index: 1;
+}
+
+/* line 311, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.choice .choice_image {
+  position: relative;
+  width: 100%;
+  display: block;
+  margin: 56px auto 0 auto;
+  z-index: 2;
+}
+
+/* line 319, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.choice .choice_text {
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 1.41;
+  text-align: center;
+  color: #222;
+}
+
+/* line 326, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.require {
+  padding: 68px 0 84px 0;
+}
+
+/* line 328, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.require_block {
+  margin: 33px 0;
+}
+
+/* line 330, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.require_block_nbm {
+  margin-bottom: 0px;
+}
+
+/* line 332, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.require_title {
+  font-size: 22px;
+  font-weight: normal;
+  color: #1eacc7;
+}
+
+/* line 336, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.require_list {
+  list-style-type: none;
+  padding-left: 50px;
+  margin-top: 22px;
+}
+
+/* line 341, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.require_list li {
+  font-size: 17px;
+  position: relative;
+  font-weight: 300;
+  line-height: 1.41;
+  text-align: left;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+/* line 349, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.require_list li::before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: -32px;
+  top: 3px;
+  width: 21px;
+  height: 20px;
+  background: url(../img/blue_icon.png) center center/cover no-repeat;
+}
+
+/* line 358, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.require_descr {
+  font-size: 17px;
+  font-size-font-weight: 300;
+  font-size-color: #1eacc7;
+}
+
+/* line 363, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.require .warning .require_title {
+  color: #ff5656;
+}
+
+/* line 367, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.require .warning .require_list li::before {
+  background: url(../img/red_icon.png) center center/cover no-repeat;
+}
+
+/* line 370, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.bottom {
+  height: 717px;
+  background: url(../img/bottom.png) center center/cover no-repeat;
+}
+
+/* line 373, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.bottom_text {
+  padding-top: 49px;
+}
+
+/* line 375, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.bottom_cities {
+  display: block;
+  font-size: 15px;
+  text-align: center;
+  color: #1eacc7;
+  text-decoration: none;
+  padding-top: 486px;
+  text-transform: uppercase;
+}
+
+/* line 383, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+footer {
+  padding: 14px 23px 39px 23px;
+}
+
+/* line 387, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.footer_blueline {
+  width: 299px;
+  height: 4px;
+  background-color: #1fbad6;
+  margin: 0 auto;
+}
+
+/* line 392, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.footer_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 32px;
+}
+
+/* line 397, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.footer_wrapper > div {
+  width: 33%;
+}
+
+/* line 399, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.footer_wrapper > div:nth-child(3) {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* line 404, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.footer_social {
+  width: 160px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 409, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.footer_social .social_logo {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  margin: 0 auto;
+  border-radius: 100%;
+}
+
+/* line 418, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.footer_menu {
+  width: 390px;
+  margin: 0 auto;
+}
+
+/* line 422, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.footer_menu_main {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+/* line 426, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.footer_menu_main a {
+  font-size: 15px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+  color: #070716;
+}
+
+/* line 433, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.footer_menu_submenu {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+/* line 437, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.footer_menu_submenu a {
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 300;
+  text-align: left;
+  color: #999;
+}
+
+/* line 443, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.footer_menu_lang {
+  display: block;
+  margin: 0 auto;
+  font-size: 11px;
+  font-weight: 400;
+  text-align: center;
+  color: #1fbad6;
+  text-transform: uppercase;
+}
+
+/* line 452, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.footer_menu_market {
+  right: 23px;
+  padding-top: 50px;
+  display: flex;
+}
+
+/* line 456, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+a {
+  text-decoration: none;
+}
+
+/* line 458, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_general.sass */
+.xs-visible {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  /* line 3, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .menu_item {
+    padding-right: 20px;
+  }
+  /* line 5, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .menu_link {
+    font-size: 13px;
+  }
+  /* line 8, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .request_h1 {
+    font-size: 50px;
+  }
+  /* line 11, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .resons_block {
+    align-items: flex-start;
+  }
+  /* line 13, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .resons_text {
+    width: 300px;
+  }
+  /* line 16, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .mobile_item {
+    width: 290px;
+  }
+  /* line 18, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .mobile_item_subtitle {
+    font-size: 22px;
+  }
+  /* line 21, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .footer_wrapper > div {
+    width: 50%;
+  }
+  /* line 23, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .footer_wrapper > div:nth-child(1) {
+    width: 25%;
+  }
+  /* line 25, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .footer_wrapper > div:nth-child(3) {
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 33, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .menu_item {
+    padding-right: 8px;
+  }
+  /* line 35, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .menu_link {
+    font-size: 10px;
+  }
+  /* line 38, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .subheader_phone {
+    font-size: 17px;
+  }
+  /* line 40, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .button_call {
+    margin-top: 21px;
+    height: 40px;
+    width: 100%;
+  }
+  /* line 45, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .request_h1 {
+    font-size: 40px;
+  }
+  /* line 47, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .request_h2 {
+    font-size: 30px;
+  }
+  /* line 49, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .request_button {
+    display: block;
+    width: 200px;
+    height: 50px;
+    font-size: 15px;
+    margin: 100px 250px 0 250px;
+  }
+  /* line 56, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .reasons_block {
+    flex-direction: column;
+    align-items: center;
+    margin-right: 0;
+  }
+  /* line 60, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .reasons_text {
+    margin-top: 20px;
+    width: 300px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 65, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .menu {
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: -100%;
+    width: 50%;
+    height: 100vh;
+    padding: 20px 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: 0.6s all;
+  }
+  /* line 77, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .menu_active {
+    left: 0;
+  }
+  /* line 80, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .menu_item {
+    padding-right: 0;
+    border: none;
+    margin-top: 10px;
+  }
+  /* line 84, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .menu_link {
+    font-size: 20px;
+  }
+  /* line 86, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .hamburger {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 26px;
+    height: 12px;
+  }
+  /* line 94, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .hamburger span {
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 2px;
+    transition: 0.5s all;
+  }
+  /* line 102, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .hamburger_active span {
+    margin-bottom: -2px;
+  }
+  /* line 104, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .hamburger_active:nth-last-child(1) {
+    transform: translateY(3px) rotate(-45deg);
+  }
+  /* line 106, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .hamburger_active:nth-last-child(2) {
+    display: none;
+  }
+  /* line 108, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .hamburger_active:nth-last-child(3) {
+    transform: translateY(3px) rotate(45deg);
+  }
+  /* line 112, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .xs-hidden {
+    display: none;
+  }
+  /* line 114, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .xs-visible {
+    display: block;
+  }
+  /* line 117, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .subheader_phone {
+    display: block;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    margin-top: 10px;
+    margin-left: 51%;
+  }
+  /* line 124, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .subheader .button_call {
+    display: block;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-left: 20%;
+    width: 200px;
+    height: 40px;
+  }
+  /* line 131, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .mobile {
+    padding: 40px 0;
+  }
+  /* line 133, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .choise {
+    min-height: 600px;
+    padding: 40px 0;
+  }
+  /* line 136, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .footer {
+    min-height: 245px;
+    width: 100%;
+  }
+  /* line 140, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .footer_blueline {
+    width: 253px;
+    height: 4px;
+    background-color: #1fbad6;
+    margin: 0 auto;
+  }
+  /* line 145, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .footer_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 32px;
+  }
+  /* line 151, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .footer_wrapper > div {
+    width: 100%;
+  }
+  /* line 153, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .footer_wrapper > div:nth-child(3) {
+    height: 32px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  /* line 158, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .footer_menu {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 22px;
+  }
+  /* line 163, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .footer_menu_main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+  }
+  /* line 168, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .footer_menu_main a {
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    color: #070716;
+  }
+  /* line 175, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .footer_menu_submenu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  /* line 180, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .footer_menu_submenu a {
+    text-transform: uppercase;
+    font-size: 8px;
+    font-weight: 300;
+    text-align: left;
+    color: #999;
+  }
+  /* line 186, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .footer_menu_lang {
+    display: block;
+    margin: 0 auto;
+    margin-top: 13px;
+    font-size: 10px;
+    font-weight: 400;
+    text-align: center;
+    color: #1fbad6;
+    text-transform: uppercase;
+  }
+  /* line 196, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .footer_menu_social {
+    width: 100%;
+    display: flex;
+    margin: 0;
+    align-items: center;
+    justify-content: space-between;
+  }
+  /* line 203, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .footer_menu_social .social_logo {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    margin: 0 auto;
+    border-radius: 100%;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 214, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .nav {
+    height: 30px;
+  }
+  /* line 216, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .header {
+    height: 50px;
+  }
+  /* line 218, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .subheader {
+    height: 60px;
+    top: 30px;
+  }
+  /* line 221, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .subheader_logo {
+    display: none;
+  }
+  /* line 223, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .subheader_phone {
+    display: block;
+    font-size: 9px;
+    text-align: center;
+    color: #fff;
+    margin-top: 10px;
+  }
+  /* line 229, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .subheader .button_call {
+    display: block;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-left: 20%;
+    width: 110px;
+    height: 22px;
+    font-size: 10px;
+  }
+  /* line 240, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .hamburger_active span:nth-last-child(1) {
+    transform: translateY(5px) rotate(-45deg);
+  }
+  /* line 242, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .hamburger_active span:nth-last-child(3) {
+    transform: translateY(5px) rotate(45deg);
+  }
+  /* line 244, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .request {
+    min-height: 400px;
+    padding: 73px 0 35px 0;
+  }
+  /* line 247, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .request_h1 {
+    font-size: 30px;
+    padding: 0 24px;
+    line-height: 35px;
+  }
+  /* line 251, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .request_h2 {
+    font-size: 20px;
+    padding: 0 10px;
+    line-height: 30px;
+  }
+  /* line 255, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .request_text {
+    display: none;
+  }
+  /* line 257, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .request_button {
+    display: block;
+    width: 200px;
+    height: 50px;
+    font-size: 12px;
+    margin: 72px 55px 0;
+  }
+  /* line 263, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .menu {
+    width: 85%;
+  }
+  /* line 265, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .menu_item {
+    width: 100%;
+    text-align: center;
+  }
+  /* line 269, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .menu_link {
+    display: block;
+  }
+  /* line 271, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .reasons {
+    width: 100%;
+    padding: 22px 0 36px 0;
+  }
+  /* line 274, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .reasons_block {
+    margin-top: 26px;
+  }
+  /* line 276, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .reasons_img {
+    height: 100px;
+    width: 100px;
+  }
+  /* line 279, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .reasons_text {
+    width: 100%;
+    margin-top: 27px;
+  }
+  /* line 282, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .reasons_paragraph {
+    font-size: 15px;
+  }
+  /* line 284, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .title {
+    font-size: 16px;
+    margin-top: 15px;
+    line-height: 16px;
+  }
+  /* line 288, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .mobile {
+    width: 100%;
+  }
+  /* line 290, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .mobile_item {
+    width: 300px;
+  }
+  /* line 292, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .choice {
+    padding: 57px 0 0 0;
+    min-height: 390px;
+    width: 100%;
+  }
+  /* line 296, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .require {
+    width: 100%;
+    margin-top: 25px;
+    padding: 0;
+  }
+  /* line 300, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .require_title {
+    font-size: 16px;
+  }
+  /* line 303, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .require_title_list li {
+    font-size: 14px;
+  }
+  /* line 305, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .bottom {
+    height: 360px;
+    width: 100%;
+  }
+  /* line 309, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .bottom_text {
+    padding-top: 25px;
+  }
+  /* line 311, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .bottom_cities {
+    font-size: 14px;
+    padding-top: 216px;
+    text-transform: uppercase;
+  }
+  /* line 315, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .footer {
+    min-height: 245px;
+    width: 100%;
+  }
+  /* line 319, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .footer_blueline {
+    width: 253px;
+    height: 4px;
+    background-color: #1fbad6;
+    margin: 0 auto;
+  }
+  /* line 324, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .footer_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 32px;
+  }
+  /* line 330, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .footer_wrapper > div {
+    width: 100%;
+  }
+  /* line 332, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .footer_wrapper > div:nth-child(3) {
+    height: 32px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  /* line 337, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .footer_menu {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 22px;
+  }
+  /* line 342, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .footer_menu_main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+  }
+  /* line 347, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .footer_menu_main a {
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    color: #070716;
+  }
+  /* line 354, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .footer_menu_submenu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  /* line 359, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .footer_menu_submenu a {
+    text-transform: uppercase;
+    font-size: 8px;
+    font-weight: 300;
+    text-align: left;
+    color: #999;
+  }
+  /* line 365, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .footer_menu_lang {
+    display: block;
+    margin: 0 auto;
+    margin-top: 13px;
+    font-size: 10px;
+    font-weight: 400;
+    text-align: center;
+    color: #1fbad6;
+    text-transform: uppercase;
+  }
+  /* line 375, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .footer_menu_social {
+    width: 100%;
+    display: flex;
+    margin: 0;
+    align-items: center;
+    justify-content: space-between;
+  }
+  /* line 382, ../../../OneDrive/Разработка/Bootstrap_testing/sass/_media.sass */
+  .footer_menu_social .social_logo {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    margin: 0 auto;
+    border-radius: 100%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
